@@ -1,0 +1,1 @@
+export type SnackbarType = 'error' | 'warning' | 'success';
