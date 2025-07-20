@@ -1,10 +1,14 @@
-.btn {
-    background-color: #42a5f5;
-    border-color: #42a5f5;
+/* Important is not ideal in general, separate component would be ideal
+for it but it is not necessary for this case
+ */
+
+.Button {
+    border-color: #42a5f5 !important;
+    color: #42a5f5 !important;
 }
 
-.btn:hover {
-    background-color: #1e88e5;
-    border-color: #1e88e5;
-    color: white;
+.Button:hover {
+    background-color: #42a5f5 !important;
+    border-color: #1e88e5 !important;
+    color: white !important;
 }
